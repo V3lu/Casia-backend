@@ -1,0 +1,106 @@
+services:
+  inventory-api:
+    build:
+      context: .
+      dockerfile: src/Inventory/Inventory.API/Dockerfile
+    ports:
+      - "5001:8080"
+    environment:
+      - ConnectionStrings__InventoryDb=Server=inventory-db;Port=5432;Database=InventoryDb;User Id=postgres;Password=devpass;
+    depends_on:
+      inventory-db:
+        condition: service_healthy
+
+  inventory-db:
+    image: postgres:16
+    environment:
+      - POSTGRES_DB=InventoryDb
+      - POSTGRES_PASSWORD=devpass
+    volumes:
+      - inventory-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  system-api:
+    build:
+      context: .
+      dockerfile: src/System/System.API/Dockerfile
+    ports:
+      - "5002:8080"
+    environment:
+      - ConnectionStrings__SystemDb=Server=system-db;Port=5432;Database=SystemDb;User Id=postgres;Password=devpass;
+    depends_on:
+      system-db:
+        condition: service_healthy
+
+  system-db:
+    image: postgres:16
+    environment:
+      - POSTGRES_DB=SystemDb
+      - POSTGRES_PASSWORD=devpass
+    volumes:
+      - system-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  main-api:
+    build:
+      context: .
+      dockerfile: src/Main/Main.API/Dockerfile
+    ports:
+      - "5003:8080"
+    environment:
+      - ConnectionStrings__MainDb=Server=main-db;Port=5432;Database=MainDb;User Id=postgres;Password=devpass;
+    depends_on:
+      main-db:
+        condition: service_healthy
+
+  main-db:
+    image: postgres:16
+    environment:
+      - POSTGRES_DB=MainDb
+      - POSTGRES_PASSWORD=devpass
+    volumes:
+      - main-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  operations-api:
+    build:
+      context: .
+      dockerfile: src/Operations/Operations.API/Dockerfile
+    ports:
+      - "5004:8080"
+    environment:
+      - ConnectionStrings__OperationsDb=Server=operations-db;Port=5432;Database=OperationsDb;User Id=postgres;Password=devpass;
+    depends_on:
+      operations-db:
+        condition: service_healthy
+
+  operations-db:
+    image: postgres:16
+    environment:
+      - POSTGRES_DB=OperationsDb
+      - POSTGRES_PASSWORD=devpass
+    volumes:
+      - operations-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  inventory-data:
+  system-data:
+  main-data:
+  operations-data:
