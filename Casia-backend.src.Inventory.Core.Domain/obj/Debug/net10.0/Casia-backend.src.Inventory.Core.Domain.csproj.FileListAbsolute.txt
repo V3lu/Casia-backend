@@ -1,0 +1,15 @@
+C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.Inventory.Core.Domain\bin\Debug\net10.0\Casia-backend.src.Inventory.Core.Domain.deps.json
+C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.Inventory.Core.Domain\bin\Debug\net10.0\Casia-backend.src.Inventory.Core.Domain.runtimeconfig.json
+C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.Inventory.Core.Domain\bin\Debug\net10.0\Casia-backend.src.Inventory.Core.Domain.dll
+C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.Inventory.Core.Domain\bin\Debug\net10.0\Casia-backend.src.Inventory.Core.Domain.pdb
+C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.Inventory.Core.Domain\obj\Debug\net10.0\Casia-backend.src.Inventory.Core.Domain.csproj.AssemblyReference.cache
+C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.Inventory.Core.Domain\obj\Debug\net10.0\Casia-backend.src.Inventory.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.Inventory.Core.Domain\obj\Debug\net10.0\Casia-backend.src.Inventory.Core.Domain.AssemblyInfoInputs.cache
+C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.Inventory.Core.Domain\obj\Debug\net10.0\Casia-backend.src.Inventory.Core.Domain.AssemblyInfo.cs
+C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.Inventory.Core.Domain\obj\Debug\net10.0\Casia-backend.src.Inventory.Core.Domain.csproj.CoreCompileInputs.cache
+C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.Inventory.Core.Domain\obj\Debug\net10.0\Casia-backend.src.Inventory.Core.Domain.sourcelink.json
+C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.Inventory.Core.Domain\obj\Debug\net10.0\Casia-backend.src.Inventory.Core.Domain.dll
+C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.Inventory.Core.Domain\obj\Debug\net10.0\refint\Casia-backend.src.Inventory.Core.Domain.dll
+C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.Inventory.Core.Domain\obj\Debug\net10.0\Casia-backend.src.Inventory.Core.Domain.pdb
+C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.Inventory.Core.Domain\obj\Debug\net10.0\Casia-backend.src.Inventory.Core.Domain.genruntimeconfig.cache
+C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.Inventory.Core.Domain\obj\Debug\net10.0\ref\Casia-backend.src.Inventory.Core.Domain.dll

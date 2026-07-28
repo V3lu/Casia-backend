@@ -22,3 +22,4 @@ namespace Casia_backend.src.Inventory.Core.Domain.Entities
             modelBuilder.ApplyConfiguration(new CategoryConfiguration());
         }
     }
+}

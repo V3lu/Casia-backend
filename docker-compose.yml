@@ -1,103 +1,131 @@
 services:
+  # ---------------------------
+  # Inventory module
+  # ---------------------------
   inventory-api:
     build:
       context: .
-      dockerfile: src/Inventory/Inventory.API/Dockerfile
+      dockerfile: Casia-backend.src.Inventory.API/Dockerfile
     ports:
       - "5001:8080"
     environment:
-      - ConnectionStrings__InventoryDb=Server=inventory-db;Port=5432;Database=InventoryDb;User Id=postgres;Password=devpass;
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__InventoryDb=Server=inventory-db;Database=Inventory;User Id=sa;Password=YourStrong!Passw0rd;TrustServerCertificate=True;
     depends_on:
       inventory-db:
         condition: service_healthy
 
   inventory-db:
-    image: postgres:16
+    image: mcr.microsoft.com/mssql/server:2022-latest
     environment:
-      - POSTGRES_DB=InventoryDb
-      - POSTGRES_PASSWORD=devpass
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=YourStrong!Passw0rd
+    ports:
+      - "14331:1433"
     volumes:
-      - inventory-data:/var/lib/postgresql/data
+      - inventory-data:/var/opt/mssql
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U postgres"]
-      interval: 5s
+      test: ["CMD-SHELL", "/opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P \"$$MSSQL_SA_PASSWORD\" -C -Q 'SELECT 1' || exit 1"]
+      interval: 10s
       timeout: 5s
-      retries: 5
+      retries: 10
+      start_period: 20s
 
+  # ---------------------------
+  # System module
+  # ---------------------------
   system-api:
     build:
       context: .
-      dockerfile: src/System/System.API/Dockerfile
+      dockerfile: Casia-backend.src.System.API/Dockerfile
     ports:
       - "5002:8080"
     environment:
-      - ConnectionStrings__SystemDb=Server=system-db;Port=5432;Database=SystemDb;User Id=postgres;Password=devpass;
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__SystemDb=Server=system-db;Database=System;User Id=sa;Password=YourStrong!Passw0rd;TrustServerCertificate=True;
     depends_on:
       system-db:
         condition: service_healthy
 
   system-db:
-    image: postgres:16
+    image: mcr.microsoft.com/mssql/server:2022-latest
     environment:
-      - POSTGRES_DB=SystemDb
-      - POSTGRES_PASSWORD=devpass
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=YourStrong!Passw0rd
+    ports:
+      - "14332:1433"
     volumes:
-      - system-data:/var/lib/postgresql/data
+      - system-data:/var/opt/mssql
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U postgres"]
-      interval: 5s
+      test: ["CMD-SHELL", "/opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P \"$$MSSQL_SA_PASSWORD\" -C -Q 'SELECT 1' || exit 1"]
+      interval: 10s
       timeout: 5s
-      retries: 5
+      retries: 10
+      start_period: 20s
 
+  # ---------------------------
+  # Main module
+  # ---------------------------
   main-api:
     build:
       context: .
-      dockerfile: src/Main/Main.API/Dockerfile
+      dockerfile: Casia-backend.src.Main.API/Dockerfile
     ports:
       - "5003:8080"
     environment:
-      - ConnectionStrings__MainDb=Server=main-db;Port=5432;Database=MainDb;User Id=postgres;Password=devpass;
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__MainDb=Server=main-db;Database=Main;User Id=sa;Password=YourStrong!Passw0rd;TrustServerCertificate=True;
     depends_on:
       main-db:
         condition: service_healthy
 
   main-db:
-    image: postgres:16
+    image: mcr.microsoft.com/mssql/server:2022-latest
     environment:
-      - POSTGRES_DB=MainDb
-      - POSTGRES_PASSWORD=devpass
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=YourStrong!Passw0rd
+    ports:
+      - "14333:1433"
     volumes:
-      - main-data:/var/lib/postgresql/data
+      - main-data:/var/opt/mssql
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U postgres"]
-      interval: 5s
+      test: ["CMD-SHELL", "/opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P \"$$MSSQL_SA_PASSWORD\" -C -Q 'SELECT 1' || exit 1"]
+      interval: 10s
       timeout: 5s
-      retries: 5
+      retries: 10
+      start_period: 20s
 
+  # ---------------------------
+  # Operations module
+  # ---------------------------
   operations-api:
     build:
       context: .
-      dockerfile: src/Operations/Operations.API/Dockerfile
+      dockerfile: Casia-backend.src.Operations.API/Dockerfile
     ports:
       - "5004:8080"
     environment:
-      - ConnectionStrings__OperationsDb=Server=operations-db;Port=5432;Database=OperationsDb;User Id=postgres;Password=devpass;
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__OperationsDb=Server=operations-db;Database=Operations;User Id=sa;Password=YourStrong!Passw0rd;TrustServerCertificate=True;
     depends_on:
       operations-db:
         condition: service_healthy
 
   operations-db:
-    image: postgres:16
+    image: mcr.microsoft.com/mssql/server:2022-latest
     environment:
-      - POSTGRES_DB=OperationsDb
-      - POSTGRES_PASSWORD=devpass
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=YourStrong!Passw0rd
+    ports:
+      - "14334:1433"
     volumes:
-      - operations-data:/var/lib/postgresql/data
+      - operations-data:/var/opt/mssql
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U postgres"]
-      interval: 5s
+      test: ["CMD-SHELL", "/opt/mssql-tools18/bin/sqlcmd -S localhost -U sa -P \"$$MSSQL_SA_PASSWORD\" -C -Q 'SELECT 1' || exit 1"]
+      interval: 10s
       timeout: 5s
-      retries: 5
+      retries: 10
+      start_period: 20s
 
 volumes:
   inventory-data:

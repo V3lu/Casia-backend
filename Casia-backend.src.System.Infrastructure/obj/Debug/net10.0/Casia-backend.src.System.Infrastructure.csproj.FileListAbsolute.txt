@@ -1,0 +1,15 @@
+C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.System.Infrastructure\bin\Debug\net10.0\Casia-backend.src.System.Infrastructure.deps.json
+C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.System.Infrastructure\bin\Debug\net10.0\Casia-backend.src.System.Infrastructure.runtimeconfig.json
+C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.System.Infrastructure\bin\Debug\net10.0\Casia-backend.src.System.Infrastructure.dll
+C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.System.Infrastructure\bin\Debug\net10.0\Casia-backend.src.System.Infrastructure.pdb
+C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.System.Infrastructure\obj\Debug\net10.0\Casia-backend.src.System.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.System.Infrastructure\obj\Debug\net10.0\Casia-backend.src.System.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.System.Infrastructure\obj\Debug\net10.0\Casia-backend.src.System.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.System.Infrastructure\obj\Debug\net10.0\Casia-backend.src.System.Infrastructure.AssemblyInfo.cs
+C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.System.Infrastructure\obj\Debug\net10.0\Casia-backend.src.System.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.System.Infrastructure\obj\Debug\net10.0\Casia-backend.src.System.Infrastructure.sourcelink.json
+C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.System.Infrastructure\obj\Debug\net10.0\Casia-backend.src.System.Infrastructure.dll
+C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.System.Infrastructure\obj\Debug\net10.0\refint\Casia-backend.src.System.Infrastructure.dll
+C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.System.Infrastructure\obj\Debug\net10.0\Casia-backend.src.System.Infrastructure.pdb
+C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.System.Infrastructure\obj\Debug\net10.0\Casia-backend.src.System.Infrastructure.genruntimeconfig.cache
+C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.System.Infrastructure\obj\Debug\net10.0\ref\Casia-backend.src.System.Infrastructure.dll
