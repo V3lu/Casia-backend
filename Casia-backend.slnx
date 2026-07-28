@@ -1,1 +1,48 @@
-<Solution />
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/Inventory/">
+    <Project Path="Casia-backend.src.Inventory.API/Casia-backend.src.Inventory.API.csproj" />
+    <Project Path="Casia-backend.src.Inventory.Infrastructure/Casia-backend.src.Inventory.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Inventory/Core/">
+    <Project Path="Casia-backend.src.Inventory.Core.Application/Casia-backend.src.Inventory.Core.Application.csproj" />
+    <Project Path="Casia-backend.src.Inventory.Core.Domain/Casia-backend.src.Inventory.Core.Domain.csproj" />
+  </Folder>
+  <Folder Name="/src/Main/">
+    <Project Path="Casia-backend.src.Main.API/Casia-backend.src.Main.API.csproj" />
+    <Project Path="Casia-backend.src.Main.Infrastructure/Casia-backend.src.Main.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Main/Core/">
+    <Project Path="Casia-backend.src.Main.Core.Application/Casia-backend.src.Main.Core.Application.csproj" />
+    <Project Path="Casia-backend.src.Main.Core.Domain/Casia-backend.src.Main.Core.Domain.csproj" />
+  </Folder>
+  <Folder Name="/src/Operations/">
+    <Project Path="Casia-backend.src.Operations.API/Casia-backend.src.Operations.API.csproj" />
+    <Project Path="Casia-backend.src.Operations.Infrastructure/Casia-backend.src.Operations.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Operations/Core/">
+    <Project Path="Casia-backend.src.Operations.Core.Application/Casia-backend.src.Operations.Core.Application.csproj" />
+    <Project Path="Casia-backend.src.Operations.Core.Domain/Casia-backend.src.Operations.Core.Domain.csproj" />
+  </Folder>
+  <Folder Name="/src/System/">
+    <Project Path="Casia-backend.src.System.API/Casia-backend.src.System.API.csproj" />
+    <Project Path="Casia-backend.src.System.Infrastructure/Casia-backend.src.System.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/System/Core/">
+    <Project Path="Casia-backend.src.System.Core.Application/Casia-backend.src.System.Core.Application.csproj" />
+    <Project Path="Casia-backend.src.System.Core.Domain/Casia-backend.src.System.Core.Domain.csproj" />
+  </Folder>
+  <Folder Name="/tst/" />
+  <Folder Name="/tst/Inventory/">
+    <Project Path="Casia-backend.tst.Inventory.Tests/Casia-backend.tst.Inventory.Tests.csproj" />
+  </Folder>
+  <Folder Name="/tst/Main/">
+    <Project Path="Casia-backend.tst.Main.Tests/Casia-backend.tst.Main.Tests.csproj" />
+  </Folder>
+  <Folder Name="/tst/Operations/">
+    <Project Path="Casia-backend.tst.Operations.Tests/Casia-backend.tst.Operations.Tests.csproj" />
+  </Folder>
+  <Folder Name="/tst/System/">
+    <Project Path="Casia-backend.tst.System.Tests/Casia-backend.tst.System.Tests.csproj" />
+  </Folder>
+</Solution>

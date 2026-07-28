@@ -1,0 +1,6 @@
+@Casia_backend.src.Operations.API_HostAddress = http://localhost:5118
+
+GET {{Casia_backend.src.Operations.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
