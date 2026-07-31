@@ -8,7 +8,8 @@ builder.Services.AddOpenApi();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddDbContext<InventoryDbContext>(options =>
 {
-    options.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=Inventory;Trusted_Connection=True;");
+    options.UseSqlServer(builder.Configuration.GetConnectionString("InventoryDb"));
+    // For future reference, pattern is "ModuleDb" for other connection strings
     options.EnableSensitiveDataLogging();
 });
 var app = builder.Build();
