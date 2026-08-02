@@ -27,10 +27,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Casia-backend.src.Inventory.Core.Domain\Casia-backend.src.Inventory.Core.Domain.csproj" />
   </ItemGroup>
 
