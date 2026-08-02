@@ -24,6 +24,9 @@
     <Project Path="Casia-backend.src.Operations.Core.Application/Casia-backend.src.Operations.Core.Application.csproj" />
     <Project Path="Casia-backend.src.Operations.Core.Domain/Casia-backend.src.Operations.Core.Domain.csproj" />
   </Folder>
+  <Folder Name="/src/Shared/">
+    <Project Path="Casia-backend.src.Shared/Casia-backend.src.Shared.csproj" Id="674af6fc-18b9-44e7-bcf7-f80cd20295d0" />
+  </Folder>
   <Folder Name="/src/System/">
     <Project Path="Casia-backend.src.System.API/Casia-backend.src.System.API.csproj" />
     <Project Path="Casia-backend.src.System.Infrastructure/Casia-backend.src.System.Infrastructure.csproj" />
