@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3iB2uXuxtg8=",
+  "dgSpecHash": "CHaK6utMxQY=",
   "success": true,
   "projectFilePath": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Inventory.Core.Application\\Casia-backend.src.Inventory.Core.Application.csproj",
   "expectedPackageFiles": [
@@ -64,15 +64,5 @@
     "C:\\Users\\aethi\\.nuget\\packages\\system.security.cryptography.pkcs\\9.0.4\\system.security.cryptography.pkcs.9.0.4.nupkg.sha512",
     "C:\\Users\\aethi\\.nuget\\packages\\system.security.cryptography.protecteddata\\9.0.4\\system.security.cryptography.protecteddata.9.0.4.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "message": "Podczas pobierania danych o lukach w zabezpieczeniach pakietu wystąpił błąd: Wystąpił błąd podczas wysyłania żądania.",
-      "projectPath": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Inventory.Core.Application\\Casia-backend.src.Inventory.Core.Application.csproj",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Inventory.Core.Application\\Casia-backend.src.Inventory.Core.Application.csproj",
-      "targetGraphs": []
-    }
-  ]
+  "logs": []
 }

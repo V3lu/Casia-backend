@@ -1284,6 +1284,22 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
+      "Casia-backend.src.Inventory.Core.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "10.0.10",
+          "Microsoft.EntityFrameworkCore.Relational": "10.0.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "10.0.10",
+          "Swashbuckle.AspNetCore.Swagger": "10.2.3"
+        },
+        "compile": {
+          "bin/placeholder/Casia-backend.src.Inventory.Core.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Casia-backend.src.Inventory.Core.Domain.dll": {}
+        }
+      },
       "Casia-backend.src.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
@@ -3740,6 +3756,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Casia-backend.src.Inventory.Core.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Casia-backend.src.Inventory.Core.Domain/Casia-backend.src.Inventory.Core.Domain.csproj",
+      "msbuildProject": "../Casia-backend.src.Inventory.Core.Domain/Casia-backend.src.Inventory.Core.Domain.csproj"
+    },
     "Casia-backend.src.Shared/1.0.0": {
       "type": "project",
       "path": "../Casia-backend.src.Shared/Casia-backend.src.Shared.csproj",
@@ -3748,6 +3769,7 @@
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "Casia-backend.src.Inventory.Core.Domain >= 1.0.0",
       "Casia-backend.src.Shared >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 10.0.10",
       "Microsoft.EntityFrameworkCore.Design >= 10.0.10",
@@ -3791,6 +3813,9 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
+            "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Inventory.Core.Domain\\Casia-backend.src.Inventory.Core.Domain.csproj": {
+              "projectPath": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Inventory.Core.Domain\\Casia-backend.src.Inventory.Core.Domain.csproj"
+            },
             "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Shared\\Casia-backend.src.Shared.csproj": {
               "projectPath": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Shared\\Casia-backend.src.Shared.csproj"
             }
@@ -4136,13 +4161,5 @@
         }
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Podczas pobierania danych o lukach w zabezpieczeniach pakietu wystąpił błąd: Wystąpił błąd podczas wysyłania żądania."
-    }
-  ]
+  }
 }
