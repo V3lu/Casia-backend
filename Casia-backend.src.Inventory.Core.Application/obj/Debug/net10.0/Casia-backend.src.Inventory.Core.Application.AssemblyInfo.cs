@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Casia-backend.src.Inventory.Core.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1b8b249f0c50f69bbb6e08acd5cbf82711c1d536")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21ef7df1bf23ddd07cbdc843b742b7883a964bbb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Casia-backend.src.Inventory.Core.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Casia-backend.src.Inventory.Core.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
