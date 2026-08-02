@@ -10,7 +10,7 @@ namespace Casia_backend.src.Inventory.Core.Application.Features.Categories.Qurie
     {
         public async Task<QueryResponse<IReadOnlyList<CategoryDto>>> HandleAsync(GetAllCategoriesQuery arguemnt)
         {
-            var categories = await repository.GetAllCategories();
+            var categories = await repository.GetAllCategoriesAsync();
             return new QueryResponse<IReadOnlyList<CategoryDto>>{ Response = categories};
         }
     }
