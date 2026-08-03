@@ -25,7 +25,6 @@
   <ItemGroup>
     <Folder Include="Contracts\" />
     <Folder Include="Features\Categories\Commands\" />
-    <Folder Include="Features\Categories\Quries\GetCategoryById\" />
     <Folder Include="Features\Products\Commands\" />
     <Folder Include="Features\Products\Queries\GetAllProducts\" />
     <Folder Include="Features\Products\Queries\GetProductsById\" />
