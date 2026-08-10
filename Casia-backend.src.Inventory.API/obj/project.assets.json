@@ -1111,6 +1111,16 @@
         "runtime": {
           "bin/placeholder/Casia-backend.src.Inventory.Core.Domain.dll": {}
         }
+      },
+      "Casia-backend.src.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/Casia-backend.src.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Casia-backend.src.Shared.dll": {}
+        }
       }
     }
   },
@@ -3299,11 +3309,17 @@
       "type": "project",
       "path": "../Casia-backend.src.Inventory.Core.Domain/Casia-backend.src.Inventory.Core.Domain.csproj",
       "msbuildProject": "../Casia-backend.src.Inventory.Core.Domain/Casia-backend.src.Inventory.Core.Domain.csproj"
+    },
+    "Casia-backend.src.Shared/1.0.0": {
+      "type": "project",
+      "path": "../Casia-backend.src.Shared/Casia-backend.src.Shared.csproj",
+      "msbuildProject": "../Casia-backend.src.Shared/Casia-backend.src.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
       "Casia-backend.src.Inventory.Core.Domain >= 1.0.0",
+      "Casia-backend.src.Shared >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 10.0.9",
       "Microsoft.EntityFrameworkCore >= 10.0.10",
       "Microsoft.EntityFrameworkCore.Design >= 10.0.10",
@@ -3350,6 +3366,9 @@
           "projectReferences": {
             "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Inventory.Core.Domain\\Casia-backend.src.Inventory.Core.Domain.csproj": {
               "projectPath": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Inventory.Core.Domain\\Casia-backend.src.Inventory.Core.Domain.csproj"
+            },
+            "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Shared\\Casia-backend.src.Shared.csproj": {
+              "projectPath": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Shared\\Casia-backend.src.Shared.csproj"
             }
           }
         }
