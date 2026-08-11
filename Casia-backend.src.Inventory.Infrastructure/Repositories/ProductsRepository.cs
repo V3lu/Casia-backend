@@ -14,12 +14,12 @@ namespace Casia_backend.src.Inventory.Infrastructure.Repositories
         {
             return dbContext.Products
                 .Select(p => new ProductDto
-                {
-                    Id = p.Id,
-                    Name = p.Name,
-                    ExpiryDate = p.ExpiryDate,
-                    CategoryId = p.CategoryId
-                })
+                (
+                    Id: p.Id,
+                    Name: p.Name,
+                    ExpiryDate: p.ExpiryDate,
+                    CategoryId: p.CategoryId
+                ))
                 .ToListAsync();
         }
     }

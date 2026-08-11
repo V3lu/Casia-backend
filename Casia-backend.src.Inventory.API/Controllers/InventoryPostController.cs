@@ -13,7 +13,13 @@ namespace Casia_backend.src.Inventory.API.Controllers
         [HttpPost("Add_Product")]
         public async Task<ActionResult<CommandResponse<ProductDto>>> AddProduct([FromBody] AddProductRequest request)
         {
+            //Step 1 : Validate the request
 
+            //Step 2 : Call the service to add the product
+
+            //Step 3 : Return the response
+
+            // For now, we will return a dummy response
         }
     }
 }
