@@ -8,9 +8,9 @@ namespace Casia_backend.src.Inventory.Core.Application.Features.Products.Command
 {
     public sealed class AddProductToStorageCommandHandler : ICommandHandler<AddProductToStorageCommand, CommandResponse<ProductDto>>
     {
-        public Task<Shared.Commands.CommandResponse<ProductDto>> HandleAsync(AddProductToStorageCommand argument)
+        public Task<CommandResponse<ProductDto>> HandleAsync(AddProductToStorageCommand argument)
         {
-            throw new NotImplementedException();
+            
         }
     }
 }

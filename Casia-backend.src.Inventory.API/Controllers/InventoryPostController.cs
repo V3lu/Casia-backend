@@ -19,14 +19,23 @@ namespace Casia_backend.src.Inventory.API.Controllers
         {
             try
             {
-                var result = await addProductCommandHandler.HandleAsync(new AddProductToStorageCommand(new Product { });
+                var product = new Product
+                {
+                    Id = Guid.Parse(request.Id),
+                    Name = request.Name,
+                    ExpiryDate = request.ExpiryDate,
+                    CategoryId = Guid.Empty
+                };
+
+                var result = await addProductCommandHandler.HandleAsync(new AddProductToStorageCommand(product));
                 return Ok(result);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                return new CommandResponse<ProductDto>({
-                    Response
-                })
+                return BadRequest(new CommandResponse<ProductDto>
+                {
+                    Response = null
+                });
             }
         }
     }

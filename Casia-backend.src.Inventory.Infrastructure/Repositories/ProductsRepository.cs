@@ -10,17 +10,15 @@ namespace Casia_backend.src.Inventory.Infrastructure.Repositories
 {
     public sealed class ProductsRepository(InventoryDbContext dbContext) : IProductRepository
     {
-        public Task<IReadOnlyList<ProductDto>> GetAllProductsAsync()
+        public async Task<IReadOnlyList<Product>> GetAllProductsAsync()
         {
-            return dbContext.Products
-                .Select(p => new ProductDto
-                (
-                    Id: p.Id,
-                    Name: p.Name,
-                    ExpiryDate: p.ExpiryDate,
-                    CategoryId: p.CategoryId
-                ))
-                .ToListAsync();
+            return await dbContext.Products.ToListAsync();
+        }
+
+        public async Task AddProductToStorage(Product Product)
+        {
+            await dbContext.Products.AddAsync(Product);
+            await dbContext.SaveChangesAsync();
         }
     }
 }
