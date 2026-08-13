@@ -11,16 +11,19 @@ namespace Casia_backend.src.Inventory.Core.Application.Features.Categories.Comma
         ICatogoriesRepository catogoriesRepository
         ) : ICommandHandler<AddCategoryCommand, CommandResponse<CategoryDto>>
     {
-        public async Task<CommandResponse<CategoryDto>> HandleAsync(AddCategoryCommand argument)
+        public async Task<CommandResponse<CategoryDto>> HandleAsync(AddCategoryCommand command)
         {
-            var category = await catogoriesRepository.AddCategoryAsync(argument.Name, argument.Description);
+            var category = await catogoriesRepository.AddCategoryToStorage(command.Category);
             var categoryDto = new CategoryDto
+            (
+                Id: command.Category.Id,
+                Name: command.Category.Name,
+                Products: command.Category.Products
+            );
+            return new CommandResponse<CategoryDto>
             {
-                Id = category.Id,
-                Name = category.Name,
-                Description = category.Description
+                Response = categoryDto
             };
-            return new CommandResponse<CategoryDto>(categoryDto);
         }
     }
 }

@@ -16,5 +16,13 @@ namespace Casia_backend.src.Inventory.Infrastructure.Repositories
                 .Select(c => new CategoryDto(c.Id, c.Name, c.Products.ToList()))
                 .ToListAsync();
         }
+
+        public async Task<Guid> AddCategoryToStorage(Category Category)
+        {
+            await dbContext.Categories.AddAsync(Category);
+            await dbContext.SaveChangesAsync();
+
+            return Category.Id;
+        }
     }
 }
