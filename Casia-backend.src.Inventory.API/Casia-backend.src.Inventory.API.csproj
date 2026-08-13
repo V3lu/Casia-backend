@@ -27,6 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Casia-backend.src.Inventory.Core.Application\Casia-backend.src.Inventory.Core.Application.csproj" />
     <ProjectReference Include="..\Casia-backend.src.Inventory.Core.Domain\Casia-backend.src.Inventory.Core.Domain.csproj" />
     <ProjectReference Include="..\Casia-backend.src.Shared\Casia-backend.src.Shared.csproj" />
   </ItemGroup>
