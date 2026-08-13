@@ -15,10 +15,12 @@ namespace Casia_backend.src.Inventory.Infrastructure.Repositories
             return await dbContext.Products.ToListAsync();
         }
 
-        public async Task AddProductToStorage(Product Product)
+        public async Task<Guid> AddProductToStorage(Product Product)
         {
             await dbContext.Products.AddAsync(Product);
             await dbContext.SaveChangesAsync();
+
+            return Product.Id;
         }
     }
 }

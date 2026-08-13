@@ -9,6 +9,6 @@ namespace Casia_backend.src.Inventory.Core.Domain.Repositories
     public interface IProductRepository
     {
         Task<IReadOnlyList<Product>> GetAllProductsAsync();
-        Task AddProductToStorage(Product Product);
+        Task<Guid> AddProductToStorage(Product Product);
     }
 }
