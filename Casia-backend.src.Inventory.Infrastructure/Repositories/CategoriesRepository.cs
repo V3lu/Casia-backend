@@ -24,5 +24,13 @@ namespace Casia_backend.src.Inventory.Infrastructure.Repositories
 
             return Category.Id;
         }
+
+        public async Task<Category> GetCategoryById(Guid Id)
+        {
+            var category = await dbContext.Categories
+                .Include(c => c.Products)
+                .FirstOrDefaultAsync(c => c.Id == Id);
+            return category ?? throw new Exception($"Category with ID {Id} not found.");
+        }
     }
 }
