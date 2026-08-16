@@ -22,5 +22,10 @@ namespace Casia_backend.src.Inventory.Infrastructure.Repositories
 
             return Product.Id;
         }
+
+        public async Task<Product?> GetProductById(Guid Id)
+        {
+            return await dbContext.Products.FirstOrDefaultAsync(p => p.Id == Id);
+        }
     }
 }
