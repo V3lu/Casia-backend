@@ -1,5 +1,6 @@
 ﻿using Casia_backend.src.Inventory.Core.Application.DTOs;
 using Casia_backend.src.Inventory.Core.Application.Features.Products.Commands.AddProductToStorage;
+using Casia_backend.src.Inventory.Core.Domain.DTOs;
 using Casia_backend.src.Inventory.Core.Domain.Entities;
 using Casia_backend.src.Inventory.Core.Domain.Requests;
 using Casia_backend.src.Shared.Commands;
@@ -33,6 +34,29 @@ namespace Casia_backend.src.Inventory.API.Controllers
             catch (Exception)
             {
                 return BadRequest(new CommandResponse<ProductDto>
+                {
+                    Response = null
+                });
+            }
+        }
+
+        [HttpPost("addCategory")]
+        public async Task<ActionResult<CommandResponse<CategoryDto>>> AddCategory([FromBody] AddCategoryRequest request)
+        {
+            try
+            {
+                var category = new Category
+                {
+                    Id = Guid.Parse(request.Id),
+                    Name = request.Name,
+                    Products = new List<Product>()
+                };
+                var result = await addProductCommandHandler.HandleAsync(new AddProductToStorageCommand(category));
+                return Ok(result);
+            }
+            catch (Exception)
+            {
+                return BadRequest(new CommandResponse<CategoryDto>
                 {
                     Response = null
                 });
