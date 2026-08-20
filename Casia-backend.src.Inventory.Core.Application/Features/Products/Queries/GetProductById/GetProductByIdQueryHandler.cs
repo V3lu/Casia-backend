@@ -11,7 +11,7 @@ namespace Casia_backend.src.Inventory.Core.Application.Features.Products.Queries
     {
         public Task<QueryResponse<ProductDto>> HandleAsync(GetProductByIdQuery arguemnt)
         {
-            throw new NotImplementedException();
+            // Validation TODO: Validate the query before processing it
         }
     }
 }

@@ -13,6 +13,7 @@ namespace Casia_backend.src.Inventory.Core.Application.Features.Categories.Comma
     {
         public async Task<CommandResponse<CategoryDto>> HandleAsync(AddCategoryCommand command)
         {
+            //Validation TODO: Validate the command before processing it
             var categoryId = await catogoriesRepository.AddCategoryToStorage(command.Category);
             var categoryDto = new CategoryDto
             (

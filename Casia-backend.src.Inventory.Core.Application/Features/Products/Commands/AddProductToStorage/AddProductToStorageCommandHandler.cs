@@ -13,6 +13,7 @@ namespace Casia_backend.src.Inventory.Core.Application.Features.Products.Command
     {
         public async Task<CommandResponse<Guid>> HandleAsync(AddProductToStorageCommand command)
         {
+            // Validation TODO: Validate the command before processing it
             var productId = await productRepository.AddProductToStorage(command.Product);
             return new CommandResponse<Guid>
             {

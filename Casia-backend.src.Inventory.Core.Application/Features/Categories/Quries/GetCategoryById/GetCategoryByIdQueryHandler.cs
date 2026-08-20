@@ -14,6 +14,7 @@ namespace Casia_backend.src.Inventory.Core.Application.Features.Categories.Qurie
     {
         public async Task<QueryResponse<CategoryDto>> HandleAsync(GetCategoryByIdQuery query)
         {
+            // Validation TODO: Validate the query before processing it
             var category = await catogoriesRepository.GetCategoryById(query.Id);
 
             //Mapster mapping to categroy dto
