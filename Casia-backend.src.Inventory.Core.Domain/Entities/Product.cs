@@ -9,6 +9,7 @@ namespace Casia_backend.src.Inventory.Core.Domain.Entities
         public Guid Id { get; set; }
         public required string Name { get; set; }
         public required DateTime ExpiryDate { get; set; }
+        public required double? Quantity { get; set; }
         public Category Category { get; set; }
         public Guid CategoryId { get; set; }
     }
