@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LMPDaAZixhA=",
+  "dgSpecHash": "hziq6fIHXHU=",
   "success": true,
   "projectFilePath": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.System.API\\Casia-backend.src.System.API.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\aethi\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\aethi\\.nuget\\packages\\mapster\\10.0.12\\mapster.10.0.12.nupkg.sha512",
     "C:\\Users\\aethi\\.nuget\\packages\\mapster.core\\10.0.12\\mapster.core.10.0.12.nupkg.sha512",
+    "C:\\Users\\aethi\\.nuget\\packages\\mapster.dependencyinjection\\10.0.12\\mapster.dependencyinjection.10.0.12.nupkg.sha512",
     "C:\\Users\\aethi\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.9\\microsoft.aspnetcore.openapi.10.0.9.nupkg.sha512",
     "C:\\Users\\aethi\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
     "C:\\Users\\aethi\\.nuget\\packages\\microsoft.bcl.cryptography\\9.0.4\\microsoft.bcl.cryptography.9.0.4.nupkg.sha512",

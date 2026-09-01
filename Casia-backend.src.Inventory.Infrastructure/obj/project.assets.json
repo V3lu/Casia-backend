@@ -72,6 +72,19 @@
           "lib/netstandard2.0/Mapster.Core.dll": {}
         }
       },
+      "Mapster.DependencyInjection/10.0.12": {
+        "type": "package",
+        "dependencies": {
+          "Mapster": "10.0.12",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0"
+        },
+        "compile": {
+          "lib/net10.0/Mapster.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/net10.0/Mapster.DependencyInjection.dll": {}
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/8.0.0": {
         "type": "package",
         "compile": {
@@ -1310,6 +1323,7 @@
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
           "Mapster": "10.0.12",
+          "Mapster.DependencyInjection": "10.0.12",
           "Microsoft.EntityFrameworkCore": "10.0.10",
           "Microsoft.EntityFrameworkCore.Relational": "10.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "10.0.10",
@@ -1410,6 +1424,22 @@
         "lib/netstandard2.0/Mapster.Core.dll",
         "mapster.core.10.0.12.nupkg.sha512",
         "mapster.core.nuspec"
+      ]
+    },
+    "Mapster.DependencyInjection/10.0.12": {
+      "sha512": "74MA3f/Rz1ErO2wAbWd/9WE2ceHT5boKzrBUmbitkGRTGXNny3ECudZeRScl3wpQWhvRrWQykOqknPVdpMka9w==",
+      "type": "package",
+      "path": "mapster.dependencyinjection/10.0.12",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net10.0/Mapster.DependencyInjection.dll",
+        "lib/net8.0/Mapster.DependencyInjection.dll",
+        "lib/net9.0/Mapster.DependencyInjection.dll",
+        "lib/netstandard2.0/Mapster.DependencyInjection.dll",
+        "mapster.dependencyinjection.10.0.12.nupkg.sha512",
+        "mapster.dependencyinjection.nuspec"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/8.0.0": {
@@ -3807,6 +3837,7 @@
     "net10.0": [
       "Casia-backend.src.Inventory.Core.Domain >= 1.0.0",
       "Mapster >= 10.0.12",
+      "Mapster.DependencyInjection >= 10.0.12",
       "Microsoft.EntityFrameworkCore >= 10.0.10",
       "Microsoft.EntityFrameworkCore.Design >= 10.0.10",
       "Microsoft.EntityFrameworkCore.Relational >= 10.0.10",
@@ -3873,6 +3904,10 @@
         "targetAlias": "net10.0",
         "dependencies": {
           "Mapster": {
+            "target": "Package",
+            "version": "[10.0.12, )"
+          },
+          "Mapster.DependencyInjection": {
             "target": "Package",
             "version": "[10.0.12, )"
           },

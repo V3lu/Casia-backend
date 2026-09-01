@@ -57,6 +57,10 @@
               "target": "Package",
               "version": "[10.0.12, )"
             },
+            "Mapster.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.12, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[10.0.10, )"
@@ -434,6 +438,10 @@
           "targetAlias": "net10.0",
           "dependencies": {
             "Mapster": {
+              "target": "Package",
+              "version": "[10.0.12, )"
+            },
+            "Mapster.DependencyInjection": {
               "target": "Package",
               "version": "[10.0.12, )"
             },

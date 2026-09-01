@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "ES+zmvU89lc=",
+  "dgSpecHash": "LBWin3+0FM8=",
   "success": true,
   "projectFilePath": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Shared\\Casia-backend.src.Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aethi\\.nuget\\packages\\mapster\\10.0.12\\mapster.10.0.12.nupkg.sha512",
-    "C:\\Users\\aethi\\.nuget\\packages\\mapster.core\\10.0.12\\mapster.core.10.0.12.nupkg.sha512"
+    "C:\\Users\\aethi\\.nuget\\packages\\mapster.core\\10.0.12\\mapster.core.10.0.12.nupkg.sha512",
+    "C:\\Users\\aethi\\.nuget\\packages\\mapster.dependencyinjection\\10.0.12\\mapster.dependencyinjection.10.0.12.nupkg.sha512",
+    "C:\\Users\\aethi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.0\\microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512"
   ],
   "logs": []
 }
