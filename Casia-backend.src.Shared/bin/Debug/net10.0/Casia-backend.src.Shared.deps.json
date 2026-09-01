@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Casia-backend.src.Shared/1.0.0": {
+        "runtime": {
+          "Casia-backend.src.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Casia-backend.src.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

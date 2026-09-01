@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "A6tCHyJzPik=",
+  "dgSpecHash": "ES+zmvU89lc=",
   "success": true,
   "projectFilePath": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Shared\\Casia-backend.src.Shared.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\aethi\\.nuget\\packages\\mapster\\10.0.12\\mapster.10.0.12.nupkg.sha512",
+    "C:\\Users\\aethi\\.nuget\\packages\\mapster.core\\10.0.12\\mapster.core.10.0.12.nupkg.sha512"
+  ],
   "logs": []
 }

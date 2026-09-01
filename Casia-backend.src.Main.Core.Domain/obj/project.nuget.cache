@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "PcfcnrNdxsI=",
+  "dgSpecHash": "qm7hLpQ1Yhs=",
   "success": true,
   "projectFilePath": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Main.Core.Domain\\Casia-backend.src.Main.Core.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aethi\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\aethi\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
     "C:\\Users\\aethi\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\aethi\\.nuget\\packages\\mapster\\10.0.12\\mapster.10.0.12.nupkg.sha512",
+    "C:\\Users\\aethi\\.nuget\\packages\\mapster.core\\10.0.12\\mapster.core.10.0.12.nupkg.sha512",
     "C:\\Users\\aethi\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
     "C:\\Users\\aethi\\.nuget\\packages\\microsoft.bcl.cryptography\\9.0.4\\microsoft.bcl.cryptography.9.0.4.nupkg.sha512",
     "C:\\Users\\aethi\\.nuget\\packages\\microsoft.build.framework\\18.0.2\\microsoft.build.framework.18.0.2.nupkg.sha512",

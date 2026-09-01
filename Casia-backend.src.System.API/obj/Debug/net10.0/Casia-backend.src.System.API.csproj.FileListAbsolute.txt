@@ -158,3 +158,4 @@ C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.System.API\obj\Debug
 C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.System.API\obj\Debug\net10.0\Casia-backend.src.System.API.pdb
 C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.System.API\obj\Debug\net10.0\Casia-backend.src.System.API.genruntimeconfig.cache
 C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.System.API\obj\Debug\net10.0\ref\Casia-backend.src.System.API.dll
+C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.System.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll

@@ -1,10 +1,13 @@
 using Casia_backend.src.Inventory.Core.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using Mapster;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddOpenApi();
+builder.Services.AddMapster();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddDbContext<InventoryDbContext>(options =>
 {
