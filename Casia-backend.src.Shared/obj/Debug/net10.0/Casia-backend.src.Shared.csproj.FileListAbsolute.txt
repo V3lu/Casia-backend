@@ -10,3 +10,4 @@ C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.Shared\obj\Debug\net
 C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.Shared\obj\Debug\net10.0\refint\Casia-backend.src.Shared.dll
 C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.Shared\obj\Debug\net10.0\Casia-backend.src.Shared.pdb
 C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.Shared\obj\Debug\net10.0\ref\Casia-backend.src.Shared.dll
+C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.Shared\obj\Debug\net10.0\Casia-backend.src.Shared.csproj.AssemblyReference.cache

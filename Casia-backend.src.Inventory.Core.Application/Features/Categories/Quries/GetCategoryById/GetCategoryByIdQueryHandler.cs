@@ -2,9 +2,7 @@
 using Casia_backend.src.Inventory.Core.Domain.DTOs;
 using Casia_backend.src.Inventory.Core.Domain.Repositories;
 using Casia_backend.src.Shared.Queries;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using Mapster;
 
 namespace Casia_backend.src.Inventory.Core.Application.Features.Categories.Quries.GetCategoryById
 {
@@ -18,7 +16,14 @@ namespace Casia_backend.src.Inventory.Core.Application.Features.Categories.Qurie
             var category = await catogoriesRepository.GetCategoryById(query.Id);
 
             //Mapster mapping to categroy dto
-            return category;
+            var categoryDto = category.Adapt<CategoryDto>();
+
+            var response = new QueryResponse<CategoryDto>
+            {
+                Response = categoryDto
+            };
+
+            return response;
         }
     }
 }

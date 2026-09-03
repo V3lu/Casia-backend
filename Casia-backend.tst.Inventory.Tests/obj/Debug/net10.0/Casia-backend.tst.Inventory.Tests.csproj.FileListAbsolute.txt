@@ -291,3 +291,6 @@ C:\Users\aethi\source\repos\Casia-backend\Casia-backend.tst.Inventory.Tests\obj\
 C:\Users\aethi\source\repos\Casia-backend\Casia-backend.tst.Inventory.Tests\obj\Debug\net10.0\ref\Casia-backend.tst.Inventory.Tests.dll
 C:\Users\aethi\source\repos\Casia-backend\Casia-backend.tst.Inventory.Tests\bin\Debug\net10.0\Microsoft.OpenApi.dll
 C:\Users\aethi\source\repos\Casia-backend\Casia-backend.tst.Inventory.Tests\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\aethi\source\repos\Casia-backend\Casia-backend.tst.Inventory.Tests\bin\Debug\net10.0\Mapster.dll
+C:\Users\aethi\source\repos\Casia-backend\Casia-backend.tst.Inventory.Tests\bin\Debug\net10.0\Mapster.Core.dll
+C:\Users\aethi\source\repos\Casia-backend\Casia-backend.tst.Inventory.Tests\bin\Debug\net10.0\Mapster.DependencyInjection.dll

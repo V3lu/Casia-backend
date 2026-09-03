@@ -159,3 +159,6 @@ C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.Operations.API\obj\D
 C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.Operations.API\obj\Debug\net10.0\Casia-backend.src.Operations.API.genruntimeconfig.cache
 C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.Operations.API\obj\Debug\net10.0\ref\Casia-backend.src.Operations.API.dll
 C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.Operations.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.Operations.API\bin\Debug\net10.0\Mapster.dll
+C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.Operations.API\bin\Debug\net10.0\Mapster.Core.dll
+C:\Users\aethi\source\repos\Casia-backend\Casia-backend.src.Operations.API\bin\Debug\net10.0\Mapster.DependencyInjection.dll
