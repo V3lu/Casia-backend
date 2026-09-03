@@ -1,9 +1,7 @@
-﻿using Casia_backend.src.Inventory.Core.Domain.DTOs;
+﻿using Casia_backend.src.Inventory.Core.Application.DTOs;
+using Casia_backend.src.Inventory.Core.Domain.DTOs;
 using Casia_backend.src.Inventory.Core.Domain.Entities;
 using Mapster;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Casia_backend.src.Inventory.Core.Application.Mappings
 {
@@ -13,6 +11,9 @@ namespace Casia_backend.src.Inventory.Core.Application.Mappings
         {
             config.NewConfig<Category, CategoryDto>()
                 .Map(dest => dest.Products, src => src.Products);
+
+            config.NewConfig<Product, ProductDto>()
+                .Map(dest => dest.CategoryId, src => src.CategoryId);
         }
     }
 }

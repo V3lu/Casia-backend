@@ -2,9 +2,6 @@
 using Casia_backend.src.Inventory.Core.Domain.Entities;
 using Casia_backend.src.Inventory.Core.Domain.Repositories;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Casia_backend.src.Inventory.Infrastructure.Repositories
 {

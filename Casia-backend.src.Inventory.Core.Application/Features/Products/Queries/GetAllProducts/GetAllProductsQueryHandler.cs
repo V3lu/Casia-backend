@@ -8,11 +8,17 @@ using System.Text;
 
 namespace Casia_backend.src.Inventory.Core.Application.Features.Products.Queries.GetAllProducts
 {
-    public sealed class GetAllProductsQueryHandler(IProductRepository repository) : ICommandHandler<GetAllProductsQuery, QueryResponse<IReadOnlyList<Product>>>
+    public sealed class GetAllProductsQueryHandler(
+        IProductRepository repository
+        ) : ICommandHandler<GetAllProductsQuery, QueryResponse<IReadOnlyList<Product>>>
     {
-        public Task<QueryResponse<IReadOnlyList<Product>>> HandleAsync(GetAllProductsQuery argument)
+        public async Task<QueryResponse<IReadOnlyList<Product>>> HandleAsync(GetAllProductsQuery argument)
         {
-            // Validation TODO: Validate the query before processing it
+            var products = await repository.GetAllProductsAsync();
+            return new QueryResponse<IReadOnlyList<Product>>
+            {
+                Response = products,
+            };
         }
     }
 }
