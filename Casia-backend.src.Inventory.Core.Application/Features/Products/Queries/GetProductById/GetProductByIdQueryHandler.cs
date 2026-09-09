@@ -3,9 +3,6 @@ using Casia_backend.src.Inventory.Core.Application.Features.Products.Queries.Get
 using Casia_backend.src.Inventory.Core.Domain.Repositories;
 using Casia_backend.src.Shared.Queries;
 using Mapster;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Casia_backend.src.Inventory.Core.Application.Features.Products.Queries.GetProductById
 {
