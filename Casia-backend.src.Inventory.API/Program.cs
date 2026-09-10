@@ -1,3 +1,4 @@
+using Casia_backend.src.Inventory.Core.Application;
 using Casia_backend.src.Inventory.Core.Application.Mappings;
 using Casia_backend.src.Inventory.Core.Domain.Entities;
 using Mapster;
@@ -17,6 +18,8 @@ builder.Services.AddDbContext<InventoryDbContext>(options =>
     // For future reference, pattern is "ModuleDb" for other connection strings
     options.EnableSensitiveDataLogging();
 });
+
+InventoryApplicationServiceRegistration.AddIntentoryServices(builder.Services, builder.Configuration);
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
