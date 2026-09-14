@@ -3,6 +3,50 @@
   "WorkspaceRootPath": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C82D7510-135F-4FC3-E9DB-9EB6652F2FFF}|Casia-backend.src.Inventory.API\\Casia-backend.src.Inventory.API.csproj|c:\\users\\aethi\\source\\repos\\casia-backend\\casia-backend.src.inventory.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C82D7510-135F-4FC3-E9DB-9EB6652F2FFF}|Casia-backend.src.Inventory.API\\Casia-backend.src.Inventory.API.csproj|solutionrelative:casia-backend.src.inventory.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE7DB3FA-3C22-B3DC-6DC3-D7C0B30161EE}|Casia-backend.src.Inventory.Infrastructure\\Casia-backend.src.Inventory.Infrastructure.csproj|c:\\users\\aethi\\source\\repos\\casia-backend\\casia-backend.src.inventory.infrastructure\\persistence\\inventorypersistenceserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE7DB3FA-3C22-B3DC-6DC3-D7C0B30161EE}|Casia-backend.src.Inventory.Infrastructure\\Casia-backend.src.Inventory.Infrastructure.csproj|solutionrelative:casia-backend.src.inventory.infrastructure\\persistence\\inventorypersistenceserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE99D3BD-D58D-A2E0-2D24-7020456D2694}|Casia-backend.src.Inventory.Core.Domain\\Casia-backend.src.Inventory.Core.Domain.csproj|c:\\users\\aethi\\source\\repos\\casia-backend\\casia-backend.src.inventory.core.domain\\inventorydomainserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE99D3BD-D58D-A2E0-2D24-7020456D2694}|Casia-backend.src.Inventory.Core.Domain\\Casia-backend.src.Inventory.Core.Domain.csproj|solutionrelative:casia-backend.src.inventory.core.domain\\inventorydomainserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47CB8EF5-F35D-4CC9-7A59-2D0A2997B09D}|Casia-backend.src.Inventory.Core.Application\\Casia-backend.src.Inventory.Core.Application.csproj|c:\\users\\aethi\\source\\repos\\casia-backend\\casia-backend.src.inventory.core.application\\inventoryapplicationserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47CB8EF5-F35D-4CC9-7A59-2D0A2997B09D}|Casia-backend.src.Inventory.Core.Application\\Casia-backend.src.Inventory.Core.Application.csproj|solutionrelative:casia-backend.src.inventory.core.application\\inventoryapplicationserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47CB8EF5-F35D-4CC9-7A59-2D0A2997B09D}|Casia-backend.src.Inventory.Core.Application\\Casia-backend.src.Inventory.Core.Application.csproj|c:\\users\\aethi\\source\\repos\\casia-backend\\casia-backend.src.inventory.core.application\\features\\categories\\quries\\getcategorybyid\\getcategorybyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47CB8EF5-F35D-4CC9-7A59-2D0A2997B09D}|Casia-backend.src.Inventory.Core.Application\\Casia-backend.src.Inventory.Core.Application.csproj|solutionrelative:casia-backend.src.inventory.core.application\\features\\categories\\quries\\getcategorybyid\\getcategorybyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47CB8EF5-F35D-4CC9-7A59-2D0A2997B09D}|Casia-backend.src.Inventory.Core.Application\\Casia-backend.src.Inventory.Core.Application.csproj|c:\\users\\aethi\\source\\repos\\casia-backend\\casia-backend.src.inventory.core.application\\features\\categories\\quries\\getallcategories\\getallcategoriesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47CB8EF5-F35D-4CC9-7A59-2D0A2997B09D}|Casia-backend.src.Inventory.Core.Application\\Casia-backend.src.Inventory.Core.Application.csproj|solutionrelative:casia-backend.src.inventory.core.application\\features\\categories\\quries\\getallcategories\\getallcategoriesqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47CB8EF5-F35D-4CC9-7A59-2D0A2997B09D}|Casia-backend.src.Inventory.Core.Application\\Casia-backend.src.Inventory.Core.Application.csproj|c:\\users\\aethi\\source\\repos\\casia-backend\\casia-backend.src.inventory.core.application\\features\\categories\\commands\\addcategory\\addcategorycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47CB8EF5-F35D-4CC9-7A59-2D0A2997B09D}|Casia-backend.src.Inventory.Core.Application\\Casia-backend.src.Inventory.Core.Application.csproj|solutionrelative:casia-backend.src.inventory.core.application\\features\\categories\\commands\\addcategory\\addcategorycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47CB8EF5-F35D-4CC9-7A59-2D0A2997B09D}|Casia-backend.src.Inventory.Core.Application\\Casia-backend.src.Inventory.Core.Application.csproj|c:\\users\\aethi\\source\\repos\\casia-backend\\casia-backend.src.inventory.core.application\\features\\products\\queries\\getproductbyid\\getproductbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47CB8EF5-F35D-4CC9-7A59-2D0A2997B09D}|Casia-backend.src.Inventory.Core.Application\\Casia-backend.src.Inventory.Core.Application.csproj|solutionrelative:casia-backend.src.inventory.core.application\\features\\products\\queries\\getproductbyid\\getproductbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47CB8EF5-F35D-4CC9-7A59-2D0A2997B09D}|Casia-backend.src.Inventory.Core.Application\\Casia-backend.src.Inventory.Core.Application.csproj|c:\\users\\aethi\\source\\repos\\casia-backend\\casia-backend.src.inventory.core.application\\features\\products\\queries\\getallproducts\\getallproductsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47CB8EF5-F35D-4CC9-7A59-2D0A2997B09D}|Casia-backend.src.Inventory.Core.Application\\Casia-backend.src.Inventory.Core.Application.csproj|solutionrelative:casia-backend.src.inventory.core.application\\features\\products\\queries\\getallproducts\\getallproductsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47CB8EF5-F35D-4CC9-7A59-2D0A2997B09D}|Casia-backend.src.Inventory.Core.Application\\Casia-backend.src.Inventory.Core.Application.csproj|c:\\users\\aethi\\source\\repos\\casia-backend\\casia-backend.src.inventory.core.application\\features\\products\\commands\\addproducttostorage\\addproducttostoragecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47CB8EF5-F35D-4CC9-7A59-2D0A2997B09D}|Casia-backend.src.Inventory.Core.Application\\Casia-backend.src.Inventory.Core.Application.csproj|solutionrelative:casia-backend.src.inventory.core.application\\features\\products\\commands\\addproducttostorage\\addproducttostoragecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE7DB3FA-3C22-B3DC-6DC3-D7C0B30161EE}|Casia-backend.src.Inventory.Infrastructure\\Casia-backend.src.Inventory.Infrastructure.csproj|c:\\users\\aethi\\source\\repos\\casia-backend\\casia-backend.src.inventory.infrastructure\\casia-backend.src.inventory.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EE7DB3FA-3C22-B3DC-6DC3-D7C0B30161EE}|Casia-backend.src.Inventory.Infrastructure\\Casia-backend.src.Inventory.Infrastructure.csproj|solutionrelative:casia-backend.src.inventory.infrastructure\\casia-backend.src.inventory.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C82D7510-135F-4FC3-E9DB-9EB6652F2FFF}|Casia-backend.src.Inventory.API\\Casia-backend.src.Inventory.API.csproj|c:\\users\\aethi\\source\\repos\\casia-backend\\casia-backend.src.inventory.api\\controllers\\inventorypostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C82D7510-135F-4FC3-E9DB-9EB6652F2FFF}|Casia-backend.src.Inventory.API\\Casia-backend.src.Inventory.API.csproj|solutionrelative:casia-backend.src.inventory.api\\controllers\\inventorypostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,20 +71,12 @@
       "RelativeMoniker": "D:0:0:{674AF6FC-18B9-44E7-BCF7-F80CD20295D0}|Casia-backend.src.Shared\\Casia-backend.src.Shared.csproj|solutionrelative:casia-backend.src.shared\\commands\\commandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47CB8EF5-F35D-4CC9-7A59-2D0A2997B09D}|Casia-backend.src.Inventory.Core.Application\\Casia-backend.src.Inventory.Core.Application.csproj|c:\\users\\aethi\\source\\repos\\casia-backend\\casia-backend.src.inventory.core.application\\features\\products\\queries\\getproductbyid\\getproductbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47CB8EF5-F35D-4CC9-7A59-2D0A2997B09D}|Casia-backend.src.Inventory.Core.Application\\Casia-backend.src.Inventory.Core.Application.csproj|solutionrelative:casia-backend.src.inventory.core.application\\features\\products\\queries\\getproductbyid\\getproductbyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CE99D3BD-D58D-A2E0-2D24-7020456D2694}|Casia-backend.src.Inventory.Core.Domain\\Casia-backend.src.Inventory.Core.Domain.csproj|c:\\users\\aethi\\source\\repos\\casia-backend\\casia-backend.src.inventory.core.domain\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CE99D3BD-D58D-A2E0-2D24-7020456D2694}|Casia-backend.src.Inventory.Core.Domain\\Casia-backend.src.Inventory.Core.Domain.csproj|solutionrelative:casia-backend.src.inventory.core.domain\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE7DB3FA-3C22-B3DC-6DC3-D7C0B30161EE}|Casia-backend.src.Inventory.Infrastructure\\Casia-backend.src.Inventory.Infrastructure.csproj|c:\\users\\aethi\\source\\repos\\casia-backend\\casia-backend.src.inventory.infrastructure\\repositories\\productsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE7DB3FA-3C22-B3DC-6DC3-D7C0B30161EE}|Casia-backend.src.Inventory.Infrastructure\\Casia-backend.src.Inventory.Infrastructure.csproj|solutionrelative:casia-backend.src.inventory.infrastructure\\repositories\\productsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47CB8EF5-F35D-4CC9-7A59-2D0A2997B09D}|Casia-backend.src.Inventory.Core.Application\\Casia-backend.src.Inventory.Core.Application.csproj|c:\\users\\aethi\\source\\repos\\casia-backend\\casia-backend.src.inventory.core.application\\features\\products\\queries\\getallproducts\\getallproductsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47CB8EF5-F35D-4CC9-7A59-2D0A2997B09D}|Casia-backend.src.Inventory.Core.Application\\Casia-backend.src.Inventory.Core.Application.csproj|solutionrelative:casia-backend.src.inventory.core.application\\features\\products\\queries\\getallproducts\\getallproductsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{47CB8EF5-F35D-4CC9-7A59-2D0A2997B09D}|Casia-backend.src.Inventory.Core.Application\\Casia-backend.src.Inventory.Core.Application.csproj|c:\\users\\aethi\\source\\repos\\casia-backend\\casia-backend.src.inventory.core.application\\mappings\\inventorymappingconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -53,14 +89,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CE99D3BD-D58D-A2E0-2D24-7020456D2694}|Casia-backend.src.Inventory.Core.Domain\\Casia-backend.src.Inventory.Core.Domain.csproj|c:\\users\\aethi\\source\\repos\\casia-backend\\casia-backend.src.inventory.core.domain\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CE99D3BD-D58D-A2E0-2D24-7020456D2694}|Casia-backend.src.Inventory.Core.Domain\\Casia-backend.src.Inventory.Core.Domain.csproj|solutionrelative:casia-backend.src.inventory.core.domain\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{47CB8EF5-F35D-4CC9-7A59-2D0A2997B09D}|Casia-backend.src.Inventory.Core.Application\\Casia-backend.src.Inventory.Core.Application.csproj|c:\\users\\aethi\\source\\repos\\casia-backend\\casia-backend.src.inventory.core.application\\features\\categories\\quries\\getcategorybyid\\getcategorybyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47CB8EF5-F35D-4CC9-7A59-2D0A2997B09D}|Casia-backend.src.Inventory.Core.Application\\Casia-backend.src.Inventory.Core.Application.csproj|solutionrelative:casia-backend.src.inventory.core.application\\features\\categories\\quries\\getcategorybyid\\getcategorybyidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C82D7510-135F-4FC3-E9DB-9EB6652F2FFF}|Casia-backend.src.Inventory.API\\Casia-backend.src.Inventory.API.csproj|c:\\users\\aethi\\source\\repos\\casia-backend\\casia-backend.src.inventory.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C82D7510-135F-4FC3-E9DB-9EB6652F2FFF}|Casia-backend.src.Inventory.API\\Casia-backend.src.Inventory.API.csproj|solutionrelative:casia-backend.src.inventory.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{47CB8EF5-F35D-4CC9-7A59-2D0A2997B09D}|Casia-backend.src.Inventory.Core.Application\\Casia-backend.src.Inventory.Core.Application.csproj|c:\\users\\aethi\\source\\repos\\casia-backend\\casia-backend.src.inventory.core.application\\casia-backend.src.inventory.core.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -98,17 +126,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 35,
+          "SelectedChildIndex": 43,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 4,
               "Title": "GetCategoryByIdQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Inventory.Core.Application\\Features\\Categories\\Quries\\GetCategoryById\\GetCategoryByIdQueryHandler.cs",
               "RelativeDocumentMoniker": "Casia-backend.src.Inventory.Core.Application\\Features\\Categories\\Quries\\GetCategoryById\\GetCategoryByIdQueryHandler.cs",
               "ToolTip": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Inventory.Core.Application\\Features\\Categories\\Quries\\GetCategoryById\\GetCategoryByIdQueryHandler.cs",
               "RelativeToolTip": "Casia-backend.src.Inventory.Core.Application\\Features\\Categories\\Quries\\GetCategoryById\\GetCategoryByIdQueryHandler.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAADwvxYAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvxQAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-13T20:11:28.351Z",
               "IsPinned": true
@@ -116,27 +144,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ICommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Shared\\Commands\\ICommandHandler.cs",
-              "RelativeDocumentMoniker": "Casia-backend.src.Shared\\Commands\\ICommandHandler.cs",
-              "ToolTip": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Shared\\Commands\\ICommandHandler.cs",
-              "RelativeToolTip": "Casia-backend.src.Shared\\Commands\\ICommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Title": "InventoryDomainServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Inventory.Core.Domain\\InventoryDomainServiceRegistration.cs",
+              "RelativeDocumentMoniker": "Casia-backend.src.Inventory.Core.Domain\\InventoryDomainServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Inventory.Core.Domain\\InventoryDomainServiceRegistration.cs",
+              "RelativeToolTip": "Casia-backend.src.Inventory.Core.Domain\\InventoryDomainServiceRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-10T15:40:02.615Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Shared\\Queries\\IQueryHandler.cs",
-              "RelativeDocumentMoniker": "Casia-backend.src.Shared\\Queries\\IQueryHandler.cs",
-              "ToolTip": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Shared\\Queries\\IQueryHandler.cs",
-              "RelativeToolTip": "Casia-backend.src.Shared\\Queries\\IQueryHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-10T15:40:00.993Z",
+              "WhenOpened": "2026-09-14T15:41:24.886Z",
               "EditorCaption": ""
             },
             {
@@ -213,7 +228,104 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
+              "Title": "GetAllCategoriesQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Inventory.Core.Application\\Features\\Categories\\Quries\\GetAllCategories\\GetAllCategoriesQueryHandler.cs",
+              "RelativeDocumentMoniker": "Casia-backend.src.Inventory.Core.Application\\Features\\Categories\\Quries\\GetAllCategories\\GetAllCategoriesQueryHandler.cs",
+              "ToolTip": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Inventory.Core.Application\\Features\\Categories\\Quries\\GetAllCategories\\GetAllCategoriesQueryHandler.cs",
+              "RelativeToolTip": "Casia-backend.src.Inventory.Core.Application\\Features\\Categories\\Quries\\GetAllCategories\\GetAllCategoriesQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T15:55:48.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddCategoryCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Inventory.Core.Application\\Features\\Categories\\Commands\\AddCategory\\AddCategoryCommandHandler.cs",
+              "RelativeDocumentMoniker": "Casia-backend.src.Inventory.Core.Application\\Features\\Categories\\Commands\\AddCategory\\AddCategoryCommandHandler.cs",
+              "ToolTip": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Inventory.Core.Application\\Features\\Categories\\Commands\\AddCategory\\AddCategoryCommandHandler.cs",
+              "RelativeToolTip": "Casia-backend.src.Inventory.Core.Application\\Features\\Categories\\Commands\\AddCategory\\AddCategoryCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T15:54:32.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddProductToStorageCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Inventory.Core.Application\\Features\\Products\\Commands\\AddProductToStorage\\AddProductToStorageCommandHandler.cs",
+              "RelativeDocumentMoniker": "Casia-backend.src.Inventory.Core.Application\\Features\\Products\\Commands\\AddProductToStorage\\AddProductToStorageCommandHandler.cs",
+              "ToolTip": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Inventory.Core.Application\\Features\\Products\\Commands\\AddProductToStorage\\AddProductToStorageCommandHandler.cs",
+              "RelativeToolTip": "Casia-backend.src.Inventory.Core.Application\\Features\\Products\\Commands\\AddProductToStorage\\AddProductToStorageCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T15:51:39.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InventoryPersistenceServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Inventory.Infrastructure\\Persistence\\InventoryPersistenceServiceRegistration.cs",
+              "RelativeDocumentMoniker": "Casia-backend.src.Inventory.Infrastructure\\Persistence\\InventoryPersistenceServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Inventory.Infrastructure\\Persistence\\InventoryPersistenceServiceRegistration.cs",
+              "RelativeToolTip": "Casia-backend.src.Inventory.Infrastructure\\Persistence\\InventoryPersistenceServiceRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T15:48:24.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Casia-backend.src.Inventory.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Inventory.Infrastructure\\Casia-backend.src.Inventory.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Casia-backend.src.Inventory.Infrastructure\\Casia-backend.src.Inventory.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Inventory.Infrastructure\\Casia-backend.src.Inventory.Infrastructure.csproj",
+              "RelativeToolTip": "Casia-backend.src.Inventory.Infrastructure\\Casia-backend.src.Inventory.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-10T15:47:41.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InventoryApplicationServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Inventory.Core.Application\\InventoryApplicationServiceRegistration.cs",
+              "RelativeDocumentMoniker": "Casia-backend.src.Inventory.Core.Application\\InventoryApplicationServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Inventory.Core.Application\\InventoryApplicationServiceRegistration.cs",
+              "RelativeToolTip": "Casia-backend.src.Inventory.Core.Application\\InventoryApplicationServiceRegistration.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABQAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T15:44:02.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ICommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Shared\\Commands\\ICommandHandler.cs",
+              "RelativeDocumentMoniker": "Casia-backend.src.Shared\\Commands\\ICommandHandler.cs",
+              "ToolTip": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Shared\\Commands\\ICommandHandler.cs",
+              "RelativeToolTip": "Casia-backend.src.Shared\\Commands\\ICommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T15:40:02.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Shared\\Queries\\IQueryHandler.cs",
+              "RelativeDocumentMoniker": "Casia-backend.src.Shared\\Queries\\IQueryHandler.cs",
+              "ToolTip": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Shared\\Queries\\IQueryHandler.cs",
+              "RelativeToolTip": "Casia-backend.src.Shared\\Queries\\IQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-10T15:40:00.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "QueryResponse.cs",
               "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Shared\\Queries\\QueryResponse.cs",
               "RelativeDocumentMoniker": "Casia-backend.src.Shared\\Queries\\QueryResponse.cs",
@@ -221,12 +333,11 @@
               "RelativeToolTip": "Casia-backend.src.Shared\\Queries\\QueryResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T18:04:51.099Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-09T18:04:51.099Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 16,
               "Title": "CommandResponse.cs",
               "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Shared\\Commands\\CommandResponse.cs",
               "RelativeDocumentMoniker": "Casia-backend.src.Shared\\Commands\\CommandResponse.cs",
@@ -234,12 +345,11 @@
               "RelativeToolTip": "Casia-backend.src.Shared\\Commands\\CommandResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T18:04:25.004Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-09T18:04:25.004Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 21,
               "Title": "ProductDto.cs",
               "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Inventory.Core.Domain\\DTOs\\ProductDto.cs",
               "RelativeDocumentMoniker": "Casia-backend.src.Inventory.Core.Domain\\DTOs\\ProductDto.cs",
@@ -251,7 +361,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 20,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Inventory.Core.Domain\\Entities\\Product.cs",
               "RelativeDocumentMoniker": "Casia-backend.src.Inventory.Core.Domain\\Entities\\Product.cs",
@@ -263,7 +373,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 17,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Inventory.Core.Domain\\Repositories\\IProductRepository.cs",
               "RelativeDocumentMoniker": "Casia-backend.src.Inventory.Core.Domain\\Repositories\\IProductRepository.cs",
@@ -275,7 +385,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "GetProductByIdQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Inventory.Core.Application\\Features\\Products\\Queries\\GetProductById\\GetProductByIdQueryHandler.cs",
               "RelativeDocumentMoniker": "Casia-backend.src.Inventory.Core.Application\\Features\\Products\\Queries\\GetProductById\\GetProductByIdQueryHandler.cs",
@@ -287,7 +397,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 18,
               "Title": "ProductsRepository.cs",
               "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Inventory.Infrastructure\\Repositories\\ProductsRepository.cs",
               "RelativeDocumentMoniker": "Casia-backend.src.Inventory.Infrastructure\\Repositories\\ProductsRepository.cs",
@@ -299,19 +409,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "GetAllProductsQueryHandler.cs",
               "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Inventory.Core.Application\\Features\\Products\\Queries\\GetAllProducts\\GetAllProductsQueryHandler.cs",
               "RelativeDocumentMoniker": "Casia-backend.src.Inventory.Core.Application\\Features\\Products\\Queries\\GetAllProducts\\GetAllProductsQueryHandler.cs",
               "ToolTip": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Inventory.Core.Application\\Features\\Products\\Queries\\GetAllProducts\\GetAllProductsQueryHandler.cs",
               "RelativeToolTip": "Casia-backend.src.Inventory.Core.Application\\Features\\Products\\Queries\\GetAllProducts\\GetAllProductsQueryHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBMAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-03T15:34:53.6Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 19,
               "Title": "InventoryMappingConfig.cs",
               "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Inventory.Core.Application\\Mappings\\InventoryMappingConfig.cs",
               "RelativeDocumentMoniker": "Casia-backend.src.Inventory.Core.Application\\Mappings\\InventoryMappingConfig.cs",
@@ -323,7 +433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 22,
               "Title": "Casia-backend.src.Inventory.Core.Application.csproj",
               "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Inventory.Core.Application\\Casia-backend.src.Inventory.Core.Application.csproj",
               "RelativeDocumentMoniker": "Casia-backend.src.Inventory.Core.Application\\Casia-backend.src.Inventory.Core.Application.csproj",
@@ -335,7 +445,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 23,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Inventory.Core.Domain\\Entities\\Category.cs",
               "RelativeDocumentMoniker": "Casia-backend.src.Inventory.Core.Domain\\Entities\\Category.cs",
@@ -347,7 +457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 24,
               "Title": "CategoryDto.cs",
               "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Inventory.Core.Domain\\DTOs\\CategoryDto.cs",
               "RelativeDocumentMoniker": "Casia-backend.src.Inventory.Core.Domain\\DTOs\\CategoryDto.cs",
@@ -359,7 +469,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 25,
               "Title": "CategoriesRepository.cs",
               "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Inventory.Infrastructure\\Repositories\\CategoriesRepository.cs",
               "RelativeDocumentMoniker": "Casia-backend.src.Inventory.Infrastructure\\Repositories\\CategoriesRepository.cs",
@@ -371,7 +481,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 26,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Inventory.API\\appsettings.json",
               "RelativeDocumentMoniker": "Casia-backend.src.Inventory.API\\appsettings.json",
@@ -383,32 +493,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 11,
               "Title": "InventoryPostController.cs",
               "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Inventory.API\\Controllers\\InventoryPostController.cs",
               "RelativeDocumentMoniker": "Casia-backend.src.Inventory.API\\Controllers\\InventoryPostController.cs",
               "ToolTip": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Inventory.API\\Controllers\\InventoryPostController.cs",
               "RelativeToolTip": "Casia-backend.src.Inventory.API\\Controllers\\InventoryPostController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwBcAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-01T15:49:33.682Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-01T15:49:33.682Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Inventory.API\\Program.cs",
               "RelativeDocumentMoniker": "Casia-backend.src.Inventory.API\\Program.cs",
               "ToolTip": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Inventory.API\\Program.cs",
               "RelativeToolTip": "Casia-backend.src.Inventory.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAB0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-08T12:38:06.838Z"
+              "WhenOpened": "2026-08-08T12:38:06.838Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 28,
               "Title": "AddCategoryCommand.cs",
               "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Inventory.Core.Application\\Features\\Categories\\Commands\\AddCategory\\AddCategoryCommand.cs",
               "RelativeDocumentMoniker": "Casia-backend.src.Inventory.Core.Application\\Features\\Categories\\Commands\\AddCategory\\AddCategoryCommand.cs",
@@ -420,7 +530,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 27,
               "Title": "IQuery.cs",
               "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Shared\\Queries\\IQuery.cs",
               "RelativeDocumentMoniker": "Casia-backend.src.Shared\\Queries\\IQuery.cs",
@@ -432,7 +542,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "InventoryGetController.cs",
               "DocumentMoniker": "C:\\Users\\aethi\\source\\repos\\Casia-backend\\Casia-backend.src.Inventory.API\\Controllers\\InventoryGetController.cs",
               "RelativeDocumentMoniker": "Casia-backend.src.Inventory.API\\Controllers\\InventoryGetController.cs",
@@ -440,8 +550,7 @@
               "RelativeToolTip": "Casia-backend.src.Inventory.API\\Controllers\\InventoryGetController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-02T15:19:48.361Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-02T15:19:48.361Z"
             }
           ]
         }

@@ -1,6 +1,7 @@
 using Casia_backend.src.Inventory.Core.Application;
 using Casia_backend.src.Inventory.Core.Application.Mappings;
 using Casia_backend.src.Inventory.Core.Domain.Entities;
+using Casia_backend.src.Inventory.Infrastructure.Persistence;
 using Mapster;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
@@ -20,6 +21,7 @@ builder.Services.AddDbContext<InventoryDbContext>(options =>
 });
 
 InventoryApplicationServiceRegistration.AddIntentoryServices(builder.Services, builder.Configuration);
+InventoryPersistenceServiceRegistration.AddInventoryPersistenceServices(builder.Services);
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
@@ -29,9 +31,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.UseAuthorization();
-
 app.MapControllers();
-
 app.Run();
