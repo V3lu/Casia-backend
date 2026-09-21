@@ -14,6 +14,8 @@ namespace Casia_backend.src.Inventory.Infrastructure.Persistence
             services.AddScoped<ICatogoriesRepository, CategoriesRepository>();
             services.AddScoped<IProductRepository, ProductsRepository>();
 
+            //Here later will be services registration
+
             return services;
         }
     }
