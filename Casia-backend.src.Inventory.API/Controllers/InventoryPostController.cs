@@ -18,49 +18,15 @@ namespace Casia_backend.src.Inventory.API.Controllers
         [HttpPost("addProduct")]
         public async Task<ActionResult<CommandResponse<ProductDto>>> AddProduct([FromBody] AddProductRequest request)
         {
-            try
-            {
-                var product = new Product
-                {
-                    Id = Guid.Parse(request.Id),
-                    Name = request.Name,
-                    ExpiryDate = request.ExpiryDate,
-                    CategoryId = Guid.Empty
-                };
-
-                var result = await addProductCommandHandler.HandleAsync(new AddProductToStorageCommand(product));
-                return Ok(result);
-            }
-            catch (Exception)
-            {
-                return BadRequest(new CommandResponse<ProductDto>
-                {
-                    Response = null
-                });
-            }
+            var result = await addProductCommandHandler.HandleAsync(new AddProductToStorageCommand(product));
+            return Ok(result);
         }
 
         [HttpPost("addCategory")]
         public async Task<ActionResult<CommandResponse<CategoryDto>>> AddCategory([FromBody] AddCategoryRequest request)
         {
-            try
-            {
-                var category = new Category
-                {
-                    Id = Guid.Parse(request.Id),
-                    Name = request.Name,
-                    Products = new List<Product>()
-                };
-                var result = await addProductCommandHandler.HandleAsync(new AddProductToStorageCommand(category));
-                return Ok(result);
-            }
-            catch (Exception)
-            {
-                return BadRequest(new CommandResponse<CategoryDto>
-                {
-                    Response = null
-                });
-            }
+            var result = await addProductCommandHandler.HandleAsync(new AddProductToStorageCommand(category));
+            return Ok(result);
         }
     }
 }
