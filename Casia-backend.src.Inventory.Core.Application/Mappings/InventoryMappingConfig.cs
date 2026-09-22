@@ -14,6 +14,9 @@ namespace Casia_backend.src.Inventory.Core.Application.Mappings
 
             config.NewConfig<Product, ProductDto>()
                 .Map(dest => dest.CategoryId, src => src.CategoryId);
+
+            config.NewConfig<ProductDto, Product>()
+                .Map(dest => dest.CategoryId, src => src.CategoryId);
         }
     }
 }

@@ -1,8 +1,9 @@
-﻿using System;
+﻿using Casia_backend.src.Inventory.Core.Application.DTOs;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Casia_backend.src.Inventory.Core.Domain.Requests
 {
-    public record AddProductRequest(string Id, string Name, DateTime ExpiryDate);
+    public record AddProductRequest(ProductDto Product);
 }
