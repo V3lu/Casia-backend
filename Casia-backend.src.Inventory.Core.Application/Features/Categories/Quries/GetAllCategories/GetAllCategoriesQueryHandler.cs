@@ -2,9 +2,6 @@
 using Casia_backend.src.Inventory.Core.Domain.DTOs;
 using Casia_backend.src.Inventory.Core.Domain.Repositories;
 using Casia_backend.src.Shared.Queries;
-using System.ComponentModel.DataAnnotations;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Model;
 
 namespace Casia_backend.src.Inventory.Core.Application.Features.Categories.Quries.GetAllCategories
 {
