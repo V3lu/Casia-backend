@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Casia-backend.src.Main.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb58610deab4d1d2244f0e33ae0b5f903d4c64ae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee62d56ef076ff4338a4c3972b7e0bd89b27d91c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Casia-backend.src.Main.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Casia-backend.src.Main.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

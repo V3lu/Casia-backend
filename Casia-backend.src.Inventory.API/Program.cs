@@ -4,7 +4,6 @@ using Casia_backend.src.Inventory.Core.Domain.Entities;
 using Casia_backend.src.Inventory.Infrastructure.Persistence;
 using Mapster;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 

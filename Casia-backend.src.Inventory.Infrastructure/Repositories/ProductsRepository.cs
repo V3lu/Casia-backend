@@ -1,6 +1,7 @@
 ﻿using Casia_backend.src.Inventory.Core.Application.DTOs;
 using Casia_backend.src.Inventory.Core.Domain.Entities;
 using Casia_backend.src.Inventory.Core.Domain.Repositories;
+using Casia_backend.src.Inventory.Core.Domain.Helpers;
 using Microsoft.EntityFrameworkCore;
 
 namespace Casia_backend.src.Inventory.Infrastructure.Repositories
@@ -23,6 +24,16 @@ namespace Casia_backend.src.Inventory.Infrastructure.Repositories
         public async Task<Product?> GetProductById(Guid Id)
         {
             return await dbContext.Products.FirstOrDefaultAsync(p => p.Id == Id);
+        }
+
+        public async Task<IReadOnlyList<Product>?> GetLowStockProductsAsync()
+        {
+            return await dbContext.Products.Where(p => p.Quantity <= Thresholds.LowStockThreshold).ToListAsync();
+        }
+
+        public Task<IReadOnlyList<Product>?> GetExpiringSoonProducts()
+        {
+            throw new NotImplementedException();
         }
     }
 }
