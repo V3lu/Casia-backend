@@ -7,5 +7,6 @@ namespace Casia_backend.src.Inventory.Core.Domain.Helpers
     public static class Thresholds
     {
         public const int LowStockThreshold = 10;
+        public const int DaysForwardExpirySoonThreshold = 2;
     }
 }
