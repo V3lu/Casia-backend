@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Casia-backend.tst.Operations.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee62d56ef076ff4338a4c3972b7e0bd89b27d91c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+00053bb7e2823a6014e8d1f581f8f7eefe1f4346")]
 [assembly: System.Reflection.AssemblyProductAttribute("Casia-backend.tst.Operations.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Casia-backend.tst.Operations.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

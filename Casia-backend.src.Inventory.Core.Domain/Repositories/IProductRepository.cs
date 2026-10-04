@@ -12,6 +12,6 @@ namespace Casia_backend.src.Inventory.Core.Domain.Repositories
         Task<Guid> AddProductToStorage(Product Product);
         Task<Product?> GetProductById(Guid Id);
         Task<IReadOnlyList<Product>?> GetLowStockProductsAsync();
-        Task<IReadOnlyList<Product>?> GetExpiringSoonProducts();
+        Task<IReadOnlyList<Product>?> GetExpiringSoonProductsAsync();
     }
 }

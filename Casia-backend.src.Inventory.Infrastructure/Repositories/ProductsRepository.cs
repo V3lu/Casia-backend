@@ -31,7 +31,7 @@ namespace Casia_backend.src.Inventory.Infrastructure.Repositories
             return await dbContext.Products.Where(p => p.Quantity <= Thresholds.LowStockThreshold).ToListAsync();
         }
 
-        public async Task<IReadOnlyList<Product>?> GetExpiringSoonProducts()
+        public async Task<IReadOnlyList<Product>?> GetExpiringSoonProductsAsync()
         {
             return await dbContext.Products.Where(p => p.ExpiryDate < DateTime.UtcNow.AddDays(Thresholds.DaysForwardExpirySoonThreshold) && p.ExpiryDate >= DateTime.UtcNow).ToListAsync();
         }
