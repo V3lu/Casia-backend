@@ -1,5 +1,13 @@
 <Solution>
   <Folder Name="/src/" />
+  <Folder Name="/src/Auth/">
+    <Project Path="Casia-backend.src.Auth.API/Casia-backend.src.Auth.API.csproj" Id="da26764a-0099-4ff4-9d37-a796d53a0c75" />
+    <Project Path="Casia-backend.src.Auth.Infrastructure/Casia-backend.src.Auth.Infrastructure.csproj" Id="5fb68112-75b8-41e3-acfe-de871997caa4" />
+  </Folder>
+  <Folder Name="/src/Auth/Core/">
+    <Project Path="Casia-backend.src.Auth.Core.Application/Casia-backend.src.Auth.Core.Application.csproj" Id="268fb00b-557f-4128-a6e2-1053dfa21f31" />
+    <Project Path="Casia-backend.src.Auth.Core.Domain/Casia-backend.src.Auth.Core.Domain.csproj" Id="8d4478b5-1614-45d4-8880-565f394a591e" />
+  </Folder>
   <Folder Name="/src/Inventory/">
     <Project Path="Casia-backend.src.Inventory.API/Casia-backend.src.Inventory.API.csproj" />
     <Project Path="Casia-backend.src.Inventory.Infrastructure/Casia-backend.src.Inventory.Infrastructure.csproj" />
