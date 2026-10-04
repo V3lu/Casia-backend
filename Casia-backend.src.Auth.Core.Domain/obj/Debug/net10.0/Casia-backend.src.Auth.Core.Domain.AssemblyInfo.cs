@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Casia-backend.src.Auth.Core.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e025da87bb2fdb0b3c7058e7c3f71e66767c90ae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25cfd07dba9ad74bab18b868638a9824d7214664")]
 [assembly: System.Reflection.AssemblyProductAttribute("Casia-backend.src.Auth.Core.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Casia-backend.src.Auth.Core.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

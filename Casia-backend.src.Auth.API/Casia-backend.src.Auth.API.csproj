@@ -15,7 +15,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\Casia-backend.src.Auth.Core.Domain\Casia-backend.src.Auth.Core.Domain.csproj" />
+    <ProjectReference Include="..\Casia-backend.src.Shared\Casia-backend.src.Shared.csproj" />
   </ItemGroup>
 
 </Project>
